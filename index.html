@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Owl CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Seinfeld</h3>
+                <p class="descricao">Jerry Seinfeld é um comediante stand-up que tenta ganhar a vida em Nova York. Ele
+                    vive em um pequeno apartamento e recebe regularmente as visitas dos amigos George (Jason Alexander),
+                    Elaine (Julia Louis-Dreyfus) e Kramer (Michael Richards). O dia a dia do quarteto é recheado de
+                    problemas financeiros e amorosos, todos lidados com muito humor.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"
+                        onclick="window.location.href='https://www.youtube.com/watch?v=hQXKyIG_NS4/'">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao"
+                        onclick="window.location.href='https://open.spotify.com/album/6besGX9cvV2APeqHzD5Atj'">
+                        <i class="fas fa-music"></i>
+                        TRILHA SONORA
+                    </button>
+                    <button role="button" class="botao popup" onclick="myFunction()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                        <span class="popuptext" id="myPopup">
+                            A "série sobre nada" é um marco da comédia na TV. Quatro amigos solteiros, o comediante
+                            Jerry Seinfeld, o atrapalhado George Constanza, a trabalhadora frustrada Elaine Benes e o
+                            excêntrico vizinho Cosmo Kramer, lidam com os absurdos da vida cotidiana em Nova York.
+                            <br><br>
+
+                            <strong>Estrelando:</strong> Jerry Seinfeld, Julia Louis-Dreyfus, Jason Alexander <br>
+                            <strong>Criação:</strong> Larry David, Jerry Seinfeld<br>
+                            <strong>Ano de Lançamento:</strong> 1989
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--OWL Carousel-->
+    <h4 class="subtitulo">FILMES</h4>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+                <img class="box-filme" src="img/filmes/casais.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/amelie.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/misturados.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/MatrixReloaded.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/esposamentirinha.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/amnesia.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/fiction.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/MatrixR.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filmes/oldboy.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+
+    </div>
+    <h4 class="subtitulo">SÉRIES</h4>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/series/AnneE.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/friends.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/workaholics.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/greyAnotomy.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/Narcos.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/comoconhecisuamae.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/suits.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/theGoodDoctor.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/series/show70.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--JavaScript é sempre a última coisa a ser carregada na página, se colocar antes, lá em cima, pode dar algum erro ao carregar a página. É uma boa prática colocar no final.-->
+    <script src="https://kit.fontawesome.com/d2d783c14d.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+    <script>
+
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>

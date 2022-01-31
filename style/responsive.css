@@ -1,0 +1,22 @@
+/*coloca uma condição para telas com o máximo de 700 px. Quando a tela for maior, volta as condições originais que estão no main.css. Isso para determinados elementos*/
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;/*jogar paa baixo*/
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 40px;
+        padding: 5px;
+    }
+  
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+    
+}
